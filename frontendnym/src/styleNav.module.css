@@ -1,0 +1,33 @@
+.navi{
+ width: 100%;
+ background-color: white;
+ position: sticky;
+ z-index: 1;
+ top: 0;
+
+}
+.navi nav{
+ padding: 1% 0;
+ align-items: center;
+ box-shadow: 0 -12px 13px 5px rgba(0, 0, 0, 0.6);
+}
+.trueUser{
+ display: grid;
+ grid-template-columns: auto auto auto auto ;
+}
+.falseUser{
+ display: grid;
+ grid-template-columns: auto auto ;
+}
+.navi p{
+ font-size: 29px;
+}
+.navi a{
+ text-align: center;
+}
+.favorites:hover *{
+ stroke: #D92332;
+}
+svg:hover{
+ stroke: #D92332;
+}

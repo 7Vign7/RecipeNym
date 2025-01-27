@@ -1,0 +1,53 @@
+.userPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.userName{
+    display: grid;
+    grid-template-columns: auto 30%;
+    width: 80%;
+    align-items: center;
+}
+
+.navUserPage{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
+.navUserPage h2{
+    font-size: 25px;
+}
+.recipeCart{
+    border:3px solid #0000000e;
+    padding:5%;
+    border-radius: 10%;
+    width:60%;
+}
+.buttonCart{
+    width: 100%;
+    margin-top: 20px;
+}
+.titleCart{
+    margin:10px;
+    text-align:center;
+    font-size: 30px;
+}
+.active{
+    background: #D92332;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #D92332;
+    transition: .4s;
+}
+.noActive{
+    color: #D92332;
+    border: 2px solid #D92332;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .4s;
+}

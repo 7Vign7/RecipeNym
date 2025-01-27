@@ -1,0 +1,45 @@
+.recipePage{
+
+}
+.recipePage p{
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+/**/
+.setingsRecipe{
+    background-color: #D92332;
+    color: #Ffffff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.countServings{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.countServings button{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: #Ffffff;
+    color: #D92332;
+    font-size: 25px ;
+}
+.countServings p{
+    font-size: 30px;
+}
+.ingredientsRecipe{
+    padding: 10px;
+    font-size: 23px;
+}
+.ingredientsRecipe p{
+    margin: 0;
+}
+/**/
+
+.stepByStep{
+
+}

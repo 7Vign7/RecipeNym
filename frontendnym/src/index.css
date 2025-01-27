@@ -1,0 +1,111 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+body{
+    margin:0;
+}
+p{
+    margin:0;
+}
+.deadButton{
+    background:#Ffffff;
+    color:#D92332;
+}
+button{
+    color: #Ffffff;
+    border: 2px solid #D92332;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .4s;
+    background: #D92332;
+    padding: 10px;
+}
+button:hover{
+    filter: grayscale(0.3);
+}
+
+section{
+    padding: 0 20%;
+    margin: 4% 0;
+}
+
+.timeInBlock{
+    padding: 10px 20px;
+}
+
+
+input{
+    padding: 10px;
+    border: 2px solid #0000000e;
+    outline: none;
+    border-radius: 10px;
+    background: #0000000e;
+    transition: .4s;
+}
+.notValidInput{
+    background: #D92332;
+    color: #Ffffff;
+}
+.notValidInput::placeholder{
+    color: #Ffffff;
+}
+textarea{
+    padding: 10px;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    background: #0000000e;
+    border: 2px solid #0000000e;
+    transition: .4s;
+}
+
+textarea:focus-visible{
+    border: 2px solid #D92332;
+}
+input:focus-visible{
+    border: 2px solid #D92332;
+}
+h1{
+    font-weight: 600;
+    text-align: left;
+    margin: 30px 0;
+    font-size: 35px;
+}
+h2{
+    font-weight: 600;
+    text-align: left;
+    margin: 25px 0;
+    font-size: 30px;
+}
+h3{
+    font-weight: 600;
+    text-align: left;
+    margin:  20px 0;
+    font-size: 25px;
+}
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: unset ;
+}
+img{
+    width: 100%;
+    border-radius: 30px ;
+}
+.blockAdmin{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.blockInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

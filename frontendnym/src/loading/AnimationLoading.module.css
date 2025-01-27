@@ -1,0 +1,15 @@
+.pacman{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color:#D92332;
+}
+.mouthPacman{
+    width: 101%;
+    height: 101%;
+    background-color: #fff;
+    clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+}
+@keyframes pacman{
+    
+}

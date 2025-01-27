@@ -1,0 +1,47 @@
+.createRecipe{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.RecipePage{
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.RecipePage form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.recipeTime{
+    display: flex;
+    gap: 15%;
+    justify-content: center;
+
+}
+.recipeTime div{
+    display: flex;
+    flex-direction: column;
+}
+.RecipePage input{
+    height: 40px;
+    margin: 0;
+}
+.RecipePage textarea{
+    height: 60px;
+}
+.ingredientsRadio{
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    width: 100%;
+}
+.ingredientsRadio input{
+    width:  100%;
+}
+.stepRecipe{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+

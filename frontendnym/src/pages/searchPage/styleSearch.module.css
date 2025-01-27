@@ -1,0 +1,13 @@
+.DivSearch{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.DivSearch input{
+    color: #000000;
+    background: none;
+    border-radius: 10px;
+    width: 80%;
+    padding: 1%;
+    font-size: 20px;
+}

@@ -1,0 +1,37 @@
+
+.auth{
+    display: flex;
+    justify-content: center;
+
+}
+.auth h1{
+    text-align: center;
+}
+.auth h2{
+    margin:0;
+    width: 90%;
+}
+.seniorBlock{
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
+.seniorBlock form{
+    width: 500px;
+    height: 400px;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 10% 30% 10% 30% 15%;
+}
+.seniorBlock input{
+    padding:  0 10px;
+    width: 90%;
+    height: 50%;
+}
+.footerButton{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerButton button{
+    width: 45%;
+}
